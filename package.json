@@ -1,0 +1,19 @@
+{
+  "name": "BrainDump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  },
+  "dependencies": {
+    "electron-localshortcut": "^3.2.1",
+    "mousetrap": "^1.6.5"
+  }
+}

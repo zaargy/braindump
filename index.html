@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Braindump</title>
+		<link href="style.css" rel="stylesheet" />
+
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy"
+		          content="
+		            default-src 'self';
+		            script-src 'self' 'unsafe-inline';
+		            connect-src *
+		          "
+		>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	</head>
+	<body>
+		<section>
+			<article contenteditable="true" class="content mousetrap"></article>
+		</section>
+		<script type="text/javascript">
+		  require('./renderer');
+		</script>
+	</body>
+</html>
