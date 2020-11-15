@@ -4,20 +4,25 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "npx electron .",
+    "dist" : "npx electron-builder"
   },
   "keywords": [],
-  "author": "",
+  "author": "James Gray <james.gray@thereforsunrise.com>",
+  "homepage": "github.com/zaargy/braindump",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^10.1.5",
-    "electron-reloader": "^1.0.1"
+    "electron": "^10.1.5"
   },
   "dependencies": {
-    "electron-db": "^0.15.7",
-    "electron-localshortcut": "^3.2.1",
-    "eslint": "^7.13.0",
-    "eslint-config-airbnb": "^18.2.1",
     "mousetrap": "^1.6.5"
+  },
+  "build": {
+    "linux": {
+      "target": "deb"
+    },
+    "mac": {
+      "target": "dmg"
+    }
   }
 }
