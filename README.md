@@ -8,10 +8,10 @@ It replaces a vim version!
 ## How it works
 
 At the moment, it simply writes files to `~/.msmtpqueue`. From crontab, I run
-`mailer-cron.sh` from crontab and what I wrote is emailed to me once I'm online.
+`mailer-cron.sh` which invokes `msmtp` to email me what I wrote (works when I'm offline too).
 
-You will need to set the `MY_EMAIL` environment variable to an email address you want MSMTP
-to email to. The email subject is hard-coded to Journal at the moment.
+You need a `MY_EMAIL` environment variable set to an email address you want `msmtp`
+to email. The email subject is hard-coded to Journal at the moment!
 
 I use it on OS X and Linux.
 
