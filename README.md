@@ -1,6 +1,7 @@
-# BrainDump
+# Braindump
 
-This is a VERY opinionated note-taking app, which is to say everything is
-hard-coded and it's coded just for me.
+This is a hacky distraction-free ever-rotating text editor I use for journalling.
 
-It essentially provides a distraction-free text editor with quick save.
+It writes files to the format required by msmtp which then does the actual emailing..
+
+I'd like to cleanup the code a bit some day...
