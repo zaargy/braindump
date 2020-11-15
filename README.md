@@ -23,3 +23,9 @@ Something more self-contained could be good but `msmtp` does work well...
 # Building
 
 `npm run-script dist`
+
+# Todo
+
+- Tidyup (+tests)
+- Make a few things more configurable
+- Fix mailer-cron running as root
