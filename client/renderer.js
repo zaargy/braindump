@@ -19,5 +19,5 @@ Mousetrap.bind('ctrl+shift+s', (event) => {
 Mousetrap.bind('ctrl+shift+d', (event) => {
   const content = contentSection.innerHTML
   const datetime = new Date().toDateString()
-  contentSection.innerHTML += datetim
+  contentSection.innerHTML += datetime
 });
