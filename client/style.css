@@ -16,7 +16,7 @@ html {
 
 
 html, body {
-	font-family: 'Lora', serif;
+	font-family: Inconsolata, monospace;
 	padding: 0;
 	margin: 0;
 	height: 100%;
