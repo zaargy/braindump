@@ -1,11 +1,12 @@
 {
   "name": "BrainDump",
   "version": "1.0.0",
-  "description": "",
+  "description": "An opinionated journalling application",
   "main": "main.js",
   "scripts": {
     "start": "npx electron .",
-    "dist" : "npx electron-builder -ml"
+    "dist-osx" : "npx electron-builder -m",
+    "dist-lin" : "npx electron-builder -l"
   },
   "keywords": [],
   "author": "James Gray <james.gray@thereforsunrise.com>",
@@ -19,7 +20,8 @@
   },
   "build": {
     "linux": {
-      "target": "deb"
+      "target": "deb",
+      "category": "Utility"
     },
     "mac": {
       "target": "dmg"
