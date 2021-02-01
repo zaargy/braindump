@@ -20,6 +20,8 @@ consistently across OS X and Linux. Rewrite in Golang/Rust?
 
 Something more self-contained could be good but `msmtp` does work well...
 
+Obviously this tool is quite specific to my use case.
+
 # Building
 
 `npm run-script dist`

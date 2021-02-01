@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "npx electron .",
-    "dist-osx" : "npx electron-builder -m",
-    "dist-lin" : "npx electron-builder -l"
+    "dist-osx": "npx electron-builder -m",
+    "dist-lin": "npx electron-builder -l"
   },
   "keywords": [],
   "author": "James Gray <james.gray@thereforsunrise.com>",

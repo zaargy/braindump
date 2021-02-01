@@ -20,7 +20,7 @@ const enqueueMsmtp = (event, content) => {
   const mailFileName = `${os.homedir}/.msmtpqueue/${date}.mail`
   const msmtpFileName = `${os.homedir}/.msmtpqueue/${date}.msmtp`
 
-  const email = formatForEmail(date, process.env.MY_EMAIL, "Journal", content)
+  const email = formatForEmail(date, process.env.MY_JOURNAL_EMAIL, "Journal", content)
 
   fs.writeFile(mailFileName, email, (err) => {
     if (err) throw err;
